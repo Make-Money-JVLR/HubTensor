@@ -26,6 +26,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url(../public/fonts/JetBrainsMonoNL.ttf);
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url(../public/fonts/Segoe\ UI.ttf);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
