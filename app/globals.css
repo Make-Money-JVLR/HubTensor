@@ -14,7 +14,7 @@ body {
 
 @font-face {
   font-family: "Segoe UI";
-  src: url(../public/fonts/Segoe\ UI.ttf);
+  src: url(../public/fonts/Segoe\ UI\ Bold.ttf);
 }
 
 @layer utilities {

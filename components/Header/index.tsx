@@ -7,19 +7,19 @@ const Header = () => {
 
   const menu = [
     {
-      name: 'Home',
+      name: 'Feature',
       link: '/'
     },
     {
-      name: 'About',
+      name: 'Pricing',
       link: '/about'
     },
     {
-      name: 'Services',
+      name: 'How to use',
       link: '/services'
     },
     {
-      name: 'Contact',
+      name: 'Roadmap',
       link: '/contact'
     }
   ]
@@ -30,11 +30,15 @@ const Header = () => {
       <Image src={logo} alt='logo' />
       <ul className='flex items-center gap-[25px] h-full'>
         {menu.map((item, index) => (
-          <li key={index} className='flex items-center gap-[25px] h-full px-[10px] py-[12px] text-[14px] leading-[22px] font-medium silver-text '>
-            <Link href={item.link} >
+          <li key={index} className='flex items-center gap-[25px] h-full  text-[14px] leading-[22px] font-medium silver-text '>
+            <Link href={item.link} className='px-[10px] py-[12px]' >
               <span>{item.name}</span>
             </Link>
-            <div className='h-full max-h-[20px] w-[1px] bg-[#353539]'></div>
+            {
+              menu.length - 1 !== index && (
+                <div className='h-full max-h-[20px] w-[1px] bg-[#353539] my-[12px]'></div>
+              )
+            }
           </li>
         ))}
       </ul>
