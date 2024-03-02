@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import bgPatternLeft from '@/images/bannerPatternLeft.png'
 import bgPatternRight from '@/images/bannerPatternRight.png'
+import { Content } from '../content'
 
 const Banner = () => {
   return (
@@ -17,10 +18,13 @@ const Banner = () => {
           </defs>
         </svg>
       </div>
-      <div className='w-[1361.11px] h-[491.078px] overflow-hidden rounded-[60px] bg-[linear-gradient(180deg,rgba(5,5,29,0.00)_0%,#29176B_42.72%,#5F2FDA_86.76%,#906EF4_115.06%,#B79BFE_136.57%)] absolute top-[234px] left-1/2 transform -translate-x-1/2 '>
+      <div className='w-[1361.11px] h-[491.078px]  rounded-[60px] bg-[linear-gradient(180deg,rgba(5,5,29,0.00)_0%,#29176B_42.72%,#5F2FDA_86.76%,#906EF4_115.06%,#B79BFE_136.57%)] absolute top-[151px] left-1/2 transform -translate-x-1/2 '>
         <div className='w-full h-full relative'>
-          <Image src={bgPatternLeft} alt='bgPattern' className='left-0 absolute bottom-0 w-[776.753px] h-[528.699px]' />
-          <Image src={bgPatternRight} alt='bgPattern' className='right-0 absolute bottom-0 w-[776.753px] h-[528.699px]' />
+          <div className='absolute bottom-[101px] left-1/2 transform -translate-x-1/2 w-full '>
+            <Content />
+          </div>
+          {/* <Image src={bgPatternLeft} alt='bgPattern' className='left-0 absolute bottom-0 w-[776.753px] h-[528.699px]' />
+          <Image src={bgPatternRight} alt='bgPattern' className='right-0 absolute bottom-0 w-[776.753px] h-[528.699px]' /> */}
         </div>
       </div>
     </div>
