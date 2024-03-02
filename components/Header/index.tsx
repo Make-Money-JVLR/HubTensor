@@ -38,7 +38,11 @@ const Header = () => {
           </li>
         ))}
       </ul>
-      <div></div>
+      <button className="button-outer clip p-1">
+        <div className="bg-[#010214] clip px-10 py-2">
+          Buy Now
+        </div>
+      </button>
     </header>
   )
 }
