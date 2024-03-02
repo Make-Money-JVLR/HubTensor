@@ -2,37 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #fdfdfd;
+  background: #010214;
 }
 
 @font-face {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   src: url(../public/fonts/JetBrainsMonoNL.ttf);
 }
 
 @font-face {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   src: url(../public/fonts/Segoe\ UI.ttf);
 }
 
@@ -40,4 +21,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.silver-text {
+  background: linear-gradient(90deg, #57576f -14.03%, #f8f8ff 58.85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
