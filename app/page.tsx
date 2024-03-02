@@ -1,5 +1,6 @@
 import Banner from "@/components/banner";
 import Collaborator from "@/components/collaborator";
+import Precofig from "@/components/preconfig";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main>
       <Banner />
       <Collaborator />
+      <Precofig />
     </main>
   );
 }
