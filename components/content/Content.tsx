@@ -7,7 +7,7 @@ import Button from "../Button";
 function Content() {
   return (
     <div className="text-center space-y-8">
-      <Tag text={`Our AI integration just landed`} icon />
+      <Tag text={`Our AI integration just landed`} icon center />
       <MainText />
       <div className="text-[16px] text-[#FDFDFD] font-segoe leading-[22px]">Explore the Possibilities of AI Chatting with Omega</div>
       <div className="flex justify-center gap-4">
