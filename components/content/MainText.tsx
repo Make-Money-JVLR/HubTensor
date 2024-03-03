@@ -7,9 +7,8 @@ function MainText() {
         backgroundClip: "text",
         WebkitBackgroundClip: "text",
         WebkitTextFillColor: "transparent"
-      }}>HubTensor.</span> Upgrade your<br />
-      productivity with HubTensor, the<br />
-      open AI chat App
+      }}>HubTensor.</span> A Blockchain-Powered<br />
+      AI Infrastructure<br />
     </div>
   )
 }
