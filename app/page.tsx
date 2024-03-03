@@ -1,3 +1,4 @@
+import Achievements from "@/components/achievements";
 import Banner from "@/components/banner";
 import Collaborator from "@/components/collaborator";
 import Mission from "@/components/mission";
@@ -9,6 +10,7 @@ export default function Home() {
     <main>
       <Banner />
       <Mission />
+      <Achievements />
       <Collaborator />
       <Preconfig />
       <Tokenomic/>
