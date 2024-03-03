@@ -23,7 +23,7 @@ const Board = () => {
   return (
     <article className='font-segoe p-8 max-w-[537px] flex flex-col gap-[44px] rounded-2xl border border-[#FFF] 
     bg-[linear-gradient(318deg,rgba(151,71,255,0.20)_1.88%,rgba(151,71,255,0.00)_59.1%),rgba(255,255,255,0.10)]
-    shadow-[-7px_4px_20px_0px_rgba(0,0,0,0.20)] backdrop-blur-[25px]
+    shadow-[-7px_4px_20px_0px_rgba(0,0,0,0.20)] md:backdrop-blur-[25px] 
     '>
       {
         contents.map((item, index) => (
@@ -46,7 +46,7 @@ const Board = () => {
          
         ))
       }
-      <button className="bg-[#191919] rounded-full py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
+      <button className="bg-[#191919] rounded-full w-fit py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
         <span>Open Dapp</span>
         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M4.66687 12.196L11.3335 5.5293" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round"/>

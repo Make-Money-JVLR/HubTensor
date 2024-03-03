@@ -32,10 +32,10 @@ const Collaborator = () => {
   ]
 
   return (
-    <div className='py-[44px] flex items-center justify-center gap-[52px]'>
+    <div className='py-[44px] flex items-center justify-center md:gap-[52px] gap-[12px] md:px-0 px-3'>
       {collaborators.map((item, index) => (
         <div key={index} className='flex items-center justify-center '>
-          <Image src={item.image} alt={item.name} className='opacity-75'/>
+          <Image src={item.image} alt={item.name} className='opacity-75' />
         </div>
       ))}
     </div>

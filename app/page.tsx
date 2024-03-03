@@ -9,15 +9,15 @@ import Roadmap from "@/components/roadmap";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Banner />
-      <Mission />
-      <About />
-      <Achievements />
-      <Roadmap />
       <Collaborator />
+      <About />
       <Preconfig />
-      <Tokenomic />
+      {/* {/* <Mission /> */}
+      {/* <Achievements />
+      <Roadmap /> */}
+      <Tokenomic /> 
     </main>
   );
 }
