@@ -8,24 +8,24 @@ import { fadeIn } from "@/lib/motion";
 function Roadmap() {
   const steps = [
     {
-      name: "Train the chatbox",
-      date: "01 AUG 2024",
-      description: "Train the chatbox ussing the data that you gathered. This wwill help it understand the target",
+      name: "Foundation",
+      date: "15 MAR 2024",
+      description: "Establish foundational infrastructure and framework for the system, laying the groundwork for future development and expansion. Includes basic features and functionality to support initial operations.",
     },
     {
-      name: "Build the app",
-      date: "02 SEP 2024",
-      description: "Train the chatbox ussing the data that you gathered. This wwill help it understand the target",
+      name: "Expansion",
+      date: "02 JUL 2024",
+      description: "Expand system capabilities and reach to accommodate growing demands and user base. Introduce additional features, scalability improvements, and enhanced performance to meet evolving needs.",
     },
     {
-      name: "Test the app",
-      date: "01 AUG 2024",
-      description: "Train the chatbox ussing the data that you gathered. This wwill help it understand the target",
+      name: "Integration",
+      date: "15 OCT 2024",
+      description: "Integrate with external systems, platforms, and technologies to enhance interoperability and functionality. Develop partnerships and collaborations to leverage synergies and broaden system utility.",
     },
     {
-      name: "Train the chatbox",
-      date: "01 AUG 2024",
-      description: "Train the chatbox ussing the data that you gathered. This wwill help it understand the target",
+      name: "Innovation",
+      date: "01 JAN 2025",
+      description: "Drive innovation and differentiation through advanced features, cutting-edge technologies, and novel solutions. Continuously improve and refine the system to stay ahead of the competition and address emerging challenges and opportunities.",
     },
   ]
   return (
@@ -70,8 +70,8 @@ function Roadmap() {
           </svg>
         </div>
         <Image src={Circles} alt="circle"  className="absolute -z-10 hidden md:block"/>
-        <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between px-16 py-20 lg:py-44 ">
-          <div className="pb-20 lg:pb-0 md:py-40 space-y-4 flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between px-16 py-44 lg:py-44 ">
+          <div className="pb-20 lg:pb-0 md:py-52 space-y-4 flex flex-col items-center md:items-start">
             <Tag text={`HubTensor`} />
             <div style={{
               background: "var(--Gradient-Primary, linear-gradient(90deg,#C7B3F8 0%,#6C3BEF 50%,#4223A1 100%))",

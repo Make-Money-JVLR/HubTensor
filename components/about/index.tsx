@@ -24,10 +24,9 @@ const About = () => {
               <Tag text="HubTensor" />
               <h1 className='md:text-[48px] text-[32px] md:leading-[60px] leading-[48px]  font-bold font-segoe text-[#FDFDFD]'>ABout <span className='title-text'>HubTensor</span></h1>
             </div>
-            <p className='md:text-[16px] text-[14px] md:leading-[24px] leading-[20px] font-segoe text-[#918DA4]'>HubTensor is an interoperability protocol that connects blockchains (50+ and counting), allowing developers to build seamless omnichain applications, tokens, and experiences. The protocol relies on immutable on-chain endpoints, a configurable Security Stack, and a permissionless set of Executors to transfer censorship-resistant messages between chains.</p>
+          <p className='md:text-[16px] text-[14px] md:leading-[24px] leading-[20px] font-segoe text-[#918DA4]'>HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains. These flagship offerings epitomize our commitment to excellence within the blockchain and decentralized industry.</p>
           </Layout>
         </div>
-
       </div>
     </div>
   )

@@ -6,26 +6,26 @@ import Layout from "@/app/template";
 function Mission() {
   const cards = [
     {
-      title: "AI INFRASTRUCTURE",
-      description: "AI Infrastructure is one of our flagship products to support the Machine Learning industry and the Blockchain industry",
+      title: "BlockAIForge",
+      description: "Empower your AI projects with the robust infrastructure of BlockAIForge. Seamlessly integrate blockchain technology into your artificial intelligence endeavors for enhanced security, transparency, and efficiency.",
       footer: "01",
       color: "#FCA36E"
     },
     {
-      title: "PRIVACY SERVICE",
-      description: "AI Infrastructure is one of our flagship products to support the Machine Learning industry and the Blockchain industry",
+      title: "ChainMind",
+      description: "Unlock the full potential of your AI initiatives with ChainMind's advanced blockchain infrastructure. Benefit from a secure and decentralized network that ensures the integrity and reliability of your AI algorithms and data.",
       footer: "02",
       color: "#4DCAFF"
     },
     {
-      title: "AI APP CHAIN",
-      description: "AI Infrastructure is one of our flagship products to support the Machine Learning industry and the Blockchain industry",
+      title: "AIChainWorks",
+      description: "Elevate your AI projects to new heights with AIChainWorks' cutting-edge blockchain infrastructure. Experience seamless integration, efficient data management, and enhanced collaboration capabilities for unparalleled performance and innovation.",
       footer: "03",
       color: "#0DFC6C"
     },
     {
-      title: "AI INFRASTRUCTURE",
-      description: "AI Infrastructure is one of our flagship products to support the Machine Learning industry and the Blockchain industry",
+      title: "DecentraBrain",
+      description: "Harness the power of decentralized intelligence with DecentraBrain's blockchain infrastructure for AI projects. Ensure privacy, scalability, and reliability while unleashing the full potential of your artificial intelligence solutions.",
       footer: "04",
       color: "#FCFF74"
     }
