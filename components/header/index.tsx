@@ -42,9 +42,15 @@ const Header = () => {
           </li>
         ))}
       </ul>
-      <button className="button-outer clip p-1">
-        <div className="bg-[#010214] clip px-10 py-2">
-          Buy Now
+      <button className="rounded-full p-1 " style={{
+        backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
+      }}>
+        <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2">
+          <span>Started Now</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
       </button>
     </header>
