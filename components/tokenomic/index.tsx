@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import reflect from '@/images/reflect.svg'
-import Tag from '../content/Tag'
+import Tag from '../Tag'
 import bgPatternLeft from '@/images/tokenPatternLeft.png'
 import bgPatternRight from '@/images/tokenPatternRight.png'
 
@@ -54,8 +54,17 @@ const Tokenomic = () => {
         className='w-[1440px] h-[393.372px] top-[-3%] relative'>
         <div className='flex flex-col gap-[40px] items-center justify-center absolute top-[162px] left-1/2 transform -translate-x-1/2 '>
           <div className='flex flex-col gap-[16px] items-center justify-center'>
-            <Tag text="HubTensor" />
-            <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'><span className='title-text'>Enabling AI</span> Infrastructure<br />
+            <div className='rounded-full p-[1px] border-0' style={{
+              backgroundImage: "linear-gradient(90deg, #FB6064 20%, #4DCAFF 60%, #814FFE 100%)"
+            }}>
+              <div className="rounded-full bg-black flex items-center justify-center w-fit px-4 py-3 space-x-2" style={{
+                background: "linear-gradient(162deg, #010214 14.93%, #bea6ff 369.16%)"
+              }}>
+                <span className="font-jetbrains text-white">HubTensor</span>
+              </div>
+            </div>
+            <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'>Enabling AI
+              Infrastructure<br />
               On Blockchain</h1>
           </div>
           <button className="bg-[#191919] rounded-full py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">

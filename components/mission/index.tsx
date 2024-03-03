@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Tag from "../content/Tag";
+import Tag from "../Tag";
 
 function Mission() {
   const cards = [

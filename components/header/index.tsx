@@ -80,8 +80,8 @@ const Header = () => {
             <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2">
               <span>Started Now</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round" />
-                <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
           </button>
@@ -94,14 +94,19 @@ const Header = () => {
           <path d="M4 17.27V16.27H20V17.27H4ZM4 12.5V11.5H20V12.5H4ZM4 7.72998V6.72998H20V7.72998H4Z" fill="#FDFDFD" />
         </svg>
       </button>
-      <button className="rounded-full p-1 md:flex hidden" style={{
+      <button className="rounded-full p-[3px] md:flex hidden" style={{
         backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
       }}>
-        <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2">
-          <span>Started Now</span>
+        <div className="bg-[#010214] rounded-full px-5 py-2 flex items-center gap-x-2 ">
+          <span style={{
+            background: "var(--Gradient-Primary, linear-gradient(180deg,#C7B3F8 0%,#6C3BEF 90%,#4223A1 100%))",
+            backgroundClip: "text",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent"
+          }} className='font-semibold text-white '>Started Now</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-            <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
       </button>

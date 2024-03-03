@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import orb from '@/images/orb.png'
-import Tag from '../content/Tag'
+import Tag from '../Tag'
 
 const About = () => {
   return (

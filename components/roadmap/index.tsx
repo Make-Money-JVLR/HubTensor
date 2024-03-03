@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Check from "@/images/check.svg";
 import Circles from "@/images/circles.svg";
-import Tag from "../content/Tag";
+import Tag from "../Tag";
 
 function Roadmap() {
   const steps = [
@@ -34,17 +34,17 @@ function Roadmap() {
         <div className="absolute -z-10">
           <svg width="603" height="1450" viewBox="0 0 603 1450" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_f_2026_592)">
-              <ellipse cx="176.237" cy="324.989" rx="176.237" ry="324.989" transform="matrix(1 0 0 -1 -150 1050)" fill="url(#paint0_radial_2026_592)" fill-opacity="0.5"/>
+              <ellipse cx="176.237" cy="324.989" rx="176.237" ry="324.989" transform="matrix(1 0 0 -1 -150 1050)" fill="url(#paint0_radial_2026_592)" fillOpacity="0.5"/>
             </g>
             <defs>
-            <filter id="filter0_f_2026_592" x="-550" y="0.0229492" width="1152.47" height="1449.98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <filter id="filter0_f_2026_592" x="-550" y="0.0229492" width="1152.47" height="1449.98" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix"/>
               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
               <feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_2026_592"/>
             </filter>
               <radialGradient id="paint0_radial_2026_592" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(176.237 1128.87) rotate(-90) scale(1128.87 417.388)">
-                <stop offset="0.308205" stop-color="#AE61FB"/>
-                <stop offset="1" stop-color="#9747FF"/>
+                <stop offset="0.308205" stopColor="#AE61FB"/>
+                <stop offset="1" stopColor="#9747FF"/>
               </radialGradient>
             </defs>
           </svg>
@@ -52,17 +52,17 @@ function Roadmap() {
         <div className="absolute right-0 -top-[20%] -z-10">
           <svg width="683" height="1124" viewBox="0 0 683 1124" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_f_2026_539)">
-              <ellipse cx="220.322" cy="161.602" rx="220.322" ry="161.602" transform="matrix(1 0 0 -1 400.242 724)" fill="url(#paint0_radial_2026_539)" fill-opacity="0.5"/>
+              <ellipse cx="220.322" cy="161.602" rx="220.322" ry="161.602" transform="matrix(1 0 0 -1 400.242 724)" fill="url(#paint0_radial_2026_539)" fillOpacity="0.5"/>
             </g>
             <defs>
-              <filter id="filter0_f_2026_539" x="0.242188" y="0.795898" width="1240.64" height="1123.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <filter id="filter0_f_2026_539" x="0.242188" y="0.795898" width="1240.64" height="1123.2" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                <feFlood floodOpacity="0" result="BackgroundImageFix"/>
                 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
                 <feGaussianBlur stdDeviation="200" result="effect1_foregroundBlur_2026_539"/>
               </filter>
               <radialGradient id="paint0_radial_2026_539" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220.322 561.335) rotate(-90) scale(561.335 521.796)">
-                <stop offset="0.308205" stop-color="#C061FB"/>
-                <stop offset="1" stop-color="#9747FF"/>
+                <stop offset="0.308205" stopColor="#C061FB"/>
+                <stop offset="1" stopColor="#9747FF"/>
               </radialGradient>
             </defs>
           </svg>
@@ -88,7 +88,7 @@ function Roadmap() {
                       <path d="M1 16.777V6.25285L7.45027 1.5H24.0852" stroke="#6C3BEF" strokeWidth="2"/>
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -bottom-3  right-0 lg:-right-3">
-                      <path d="M24 0.222982L24 10.7472L17.5497 15.5L0.914839 15.5" stroke="#6C3BEF" stroke-width="2"/>
+                      <path d="M24 0.222982L24 10.7472L17.5497 15.5L0.914839 15.5" stroke="#6C3BEF" strokeWidth="2"/>
                     </svg>
                   </div>
                   <svg width="199" height="1" viewBox="0 0 199 1" fill="none" xmlns="http://www.w3.org/2000/svg" className="hidden lg:block">
