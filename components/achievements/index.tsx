@@ -1,7 +1,12 @@
+import Layout from "@/app/template";
 import Card from "./Card";
+import { fadeIn } from "@/lib/motion";
 
 function Achievements() {
   return (
+    <Layout variant={
+      fadeIn('up', 'spring', 0.5, 1)
+    }>
     <div style={{
       backgroundImage: "url('/images/achievementsBackground.png')",
       backgroundSize: "cover",
@@ -17,6 +22,7 @@ function Achievements() {
         </div>
       </div>
     </div>
+    </Layout>
   );
 }
 

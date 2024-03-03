@@ -4,6 +4,8 @@ import reflect from '@/images/reflect.svg'
 import Tag from '../Tag'
 import bgPatternLeft from '@/images/tokenPatternLeft.png'
 import bgPatternRight from '@/images/tokenPatternRight.png'
+import Layout from '@/app/template'
+import { fadeIn } from '@/lib/motion'
 
 const Tokenomic = () => {
 
@@ -24,6 +26,9 @@ const Tokenomic = () => {
 
   return (
     <div className='h-[1085px] pb-[132px] flex flex-col justify-center items-center mx-auto overflow-hidden'>
+      <Layout variant={
+        fadeIn('down', 'spring', 1, 1)
+      }>
       <div className='w-[1320.167px] h-[522.078px] relative max-w-[1440px] md:mx-auto rounded-[60px] bg-[linear-gradient(180deg,rgba(5,5,29,0.00)_0%,#29176B_36.02%,#5F2FDA_59.89%,#906EF4_82.4%,#FFF_110.71%)] mt-[37px]'>
         <div className='flex flex-col gap-[87px]'>
           <div className='flex flex-col items-center justify-center gap-[16px]'>
@@ -44,6 +49,10 @@ const Tokenomic = () => {
         <Image src={bgPatternLeft} alt='bgPattern' className='left-[0%] absolute bottom-0 mix-blend-lighten ' />
         <Image src={bgPatternRight} alt='bgPattern' className='right-[0%] absolute bottom-0 mix-blend-lighten' />
       </div>
+      </Layout>
+      <Layout variant={
+        fadeIn('up', 'spring', 1, 1)
+      }>
       <div
         style={{
           backgroundImage: `url(${reflect.src})`,
@@ -67,7 +76,7 @@ const Tokenomic = () => {
               Infrastructure<br />
               On Blockchain</h1>
           </div>
-          <button className="bg-[#191919] rounded-full py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
+            <button className="bg-[#191919] rounded-full hover:shadow-none transition-all duration-500 ease-in-out py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
             <span>Discover</span>
             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M4.66687 12.196L11.3335 5.5293" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
@@ -76,6 +85,7 @@ const Tokenomic = () => {
           </button>
         </div>
       </div>
+      </Layout>
     </div>
   )
 }

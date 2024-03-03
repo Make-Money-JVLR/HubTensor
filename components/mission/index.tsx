@@ -1,5 +1,7 @@
 import Card from "./Card";
 import Tag from "../Tag";
+import { fadeIn } from "@/lib/motion";
+import Layout from "@/app/template";
 
 function Mission() {
   const cards = [
@@ -53,12 +55,16 @@ function Mission() {
             HubTensor <span className="text-[var(--Subtext,_#918DA4)] ">is an AI Infrastructure service provider that emphasizes ease of access and other additional features such as Privacy Service and App Chain which are our best products in blockchain and decentralized industry.</span>
           </div>
         </div>
+        <Layout variant={
+          fadeIn('down', 'spring', 0.5, 1)
+        }>
         <div className="lg:flex lg:justify-center md:gap-x-9 md:grid md:grid-cols-2 lg:py-28 pb-8 space-y-8" style={{
         }}>
           {cards.map(({title, description, color, footer}, index) => (
             <Card title={title} key={index} description={description} footer={footer} color={color} />
           ))}
         </div>
+        </Layout>
       </div>
     </div>
   );

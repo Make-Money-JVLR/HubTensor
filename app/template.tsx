@@ -1,15 +1,14 @@
 "use client";
 import { motion } from "framer-motion";
 
-const Layout = ({ children }: { children: React.ReactNode }) => (
+const Layout = ({ children , variant }: { children: React.ReactNode  , variant : any}) => (
   <motion.div
     initial="hidden"
     whileInView="show"
     viewport={{ once: true }}
-    variants={{
-      hidden: { opacity: 0 },
-      show: { opacity: 1, transition: { duration: 1 } },
-    }}
+    variants={
+      variant
+    }
   >
     {children}
   </motion.div>

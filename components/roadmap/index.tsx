@@ -2,6 +2,8 @@ import Image from "next/image";
 import Check from "@/images/check.svg";
 import Circles from "@/images/circles.svg";
 import Tag from "../Tag";
+import Layout from "@/app/template";
+import { fadeIn } from "@/lib/motion";
 
 function Roadmap() {
   const steps = [
@@ -96,11 +98,15 @@ function Roadmap() {
                   </svg>
                 </div>
                 <div className="border px-6 py-12 border-[#353539] space-y-4">
+                  <Layout variant={
+                    fadeIn('right', 'spring', 0.5, 1)
+                  }>
                   <div className="flex items-center gap-x-4">
                     <Image src={Check} alt="Roadmap" className="rounded-full bg-[#9747FF] size-8 p-1" />
                     <span>{name}</span>
                   </div>
                   <div className="font-jetbrains max-w-[560px] text-[#918DA4]">{description}</div>
+                  </Layout>
                 </div>
               </div>
             ))}

@@ -149,6 +149,11 @@ export const zoomIn = (delay: any, duration: any) => ({
   },
 });
 
+export const showVariant = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { duration: 1 } },
+};
+
 export const footerVariants = {
   hidden: {
     opacity: 0,
