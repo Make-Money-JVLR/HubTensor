@@ -14,10 +14,10 @@ export default function Home() {
       <Collaborator />
       <About />
       <Preconfig />
-      {/* {/* <Mission /> */}
-      {/* <Achievements />
-      <Roadmap /> */}
-      <Tokenomic /> 
+      <Mission />
+      <Achievements />
+      <Roadmap />
+      <Tokenomic />
     </main>
   );
 }
