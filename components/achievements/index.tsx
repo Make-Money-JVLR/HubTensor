@@ -5,7 +5,7 @@ function Achievements() {
     <div style={{
       backgroundImage: "url('/images/achievementsBackground.png')",
       backgroundSize: "cover",
-    }} className="flex justify-center">
+    }} className="flex justify-center pb-16">
       <div className="flex items-center gap-x-4 p-24">
         <div className="space-y-4 w-96">
           <Card tag="Saving" title="Upto 30% cost redution with cloud migration" link="/" className="h-64" />

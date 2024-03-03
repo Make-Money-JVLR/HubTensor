@@ -5,6 +5,7 @@ import Collaborator from "@/components/collaborator";
 import Mission from "@/components/mission";
 import Preconfig from "@/components/preconfig";
 import Tokenomic from "@/components/tokenomic";
+import Roadmap from "@/components/roadmap";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Mission />
       <About />
       <Achievements />
+      <Roadmap />
       <Collaborator />
       <Preconfig />
       <Tokenomic />
