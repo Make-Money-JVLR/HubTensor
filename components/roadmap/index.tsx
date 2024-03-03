@@ -65,9 +65,9 @@ function Roadmap() {
             </defs>
           </svg>
         </div>
-        <Image src={Circles} alt="circle"  className="absolute -z-10"/>
-        <div className="flex justify-between px-16 py-44 ">
-          <div className="py-52 space-y-4">
+        <Image src={Circles} alt="circle"  className="absolute -z-10 hidden md:block"/>
+        <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between px-16 py-20 lg:py-44 ">
+          <div className="pb-20 lg:pb-0 md:py-40 space-y-4 flex flex-col items-center md:items-start">
             <Tag text={`HubTensor`} />
             <div style={{
               background: "var(--Gradient-Primary, linear-gradient(90deg,#C7B3F8 0%,#6C3BEF 50%,#4223A1 100%))",
@@ -76,20 +76,20 @@ function Roadmap() {
               WebkitTextFillColor: "transparent"
             }} className="text-5xl font-bold">Roadmap</div>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col self-end gap-y-8 lg:gap-y-0">
             {steps.map(({date, name, description}, index) => (
-              <div key={index} className="flex justify-between items-center">
+              <div key={index} className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-y-8 ">
                 <div className="font-jetbrains text-sm flex items-center gap-x-4">
-                  <div className="relative">
+                  <div className="relative px-4 lg:px-0">
                     <span>{date}</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -top-3 -left-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -top-3 left-0 lg:-left-3">
                       <path d="M1 16.777V6.25285L7.45027 1.5H24.0852" stroke="#6C3BEF" strokeWidth="2"/>
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -bottom-3 -right-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -bottom-3  right-0 lg:-right-3">
                       <path d="M24 0.222982L24 10.7472L17.5497 15.5L0.914839 15.5" stroke="#6C3BEF" stroke-width="2"/>
                     </svg>
                   </div>
-                  <svg width="199" height="1" viewBox="0 0 199 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="199" height="1" viewBox="0 0 199 1" fill="none" xmlns="http://www.w3.org/2000/svg" className="hidden lg:block">
                     <line y1="0.5" x2="199" y2="0.5" stroke="#353539"/>
                   </svg>
                 </div>

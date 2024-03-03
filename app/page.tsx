@@ -10,14 +10,14 @@ import Roadmap from "@/components/roadmap";
 export default function Home() {
   return (
     <main>
-      <Banner />
+      {/* <Banner />
       <Mission />
       <About />
-      <Achievements />
+      <Achievements /> */}
       <Roadmap />
-      <Collaborator />
+      {/* <Collaborator />
       <Preconfig />
-      <Tokenomic />
+      <Tokenomic /> */}
     </main>
   );
 }
