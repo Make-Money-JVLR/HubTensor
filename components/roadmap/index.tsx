@@ -27,7 +27,9 @@ function Roadmap() {
     },
   ]
   return (
-    <div className="flex justify-center">
+    <div
+    id="roadmap"
+    className="flex justify-center">
       <div className="relative overflow-visible max-w-[1960px] flex-1">
         <div className="absolute -z-10">
           <svg width="603" height="1450" viewBox="0 0 603 1450" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +76,7 @@ function Roadmap() {
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
-            }} className="text-5xl font-bold">Roadmap</div>
+            }} className="md:text-5xl text-4xl font-bold">Roadmap</div>
           </div>
           <div className="flex flex-col self-end gap-y-8 lg:gap-y-0">
             {steps.map(({date, name, description}, index) => (

@@ -28,13 +28,13 @@ const Tokenomic = () => {
         <div className='flex flex-col gap-[87px]'>
           <div className='flex flex-col items-center justify-center gap-[16px]'>
             <Tag text="HubTensor" />
-            <h1 className='md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-segoe title-text font-bold'>Tokenomic</h1>
+            <h1 className='md:text-[48px] text-[32px] md:leading-[44px] leading-[40px]  title-text font-bold'>Tokenomic</h1>
           </div>
           <div className='flex items-center md:gap-[140px] gap-[32px] justify-center md:px-0 px-3'>
             {
               tokenomic.map((item, index) => (
                 <div key={index} className='flex flex-col gap-[10px] items-center justify-center text-[#FDFDFD] font-segoe'>
-                  <h1 className='md:text-[80px] text-[60px]  font-bold'>{item.number}</h1>
+                  <h1 className='md:text-[80px] text-[40px]  font-bold'>{item.number}</h1>
                   <p className='md:text-[24px] text-[16px] leading-[22px] font-semibold'>{item.title}</p>
                 </div>
               ))
@@ -55,8 +55,7 @@ const Tokenomic = () => {
         <div className='flex flex-col gap-[40px] items-center justify-center absolute top-[162px] left-1/2 transform -translate-x-1/2 '>
           <div className='flex flex-col gap-[16px] items-center justify-center'>
             <Tag text="HubTensor" />
-            <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'>Enabling AI
-              Infrastructure<br />
+            <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'><span className='title-text'>Enabling AI</span> Infrastructure<br />
               On Blockchain</h1>
           </div>
           <button className="bg-[#191919] rounded-full py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">

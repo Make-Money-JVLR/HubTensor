@@ -9,19 +9,19 @@ const Header = () => {
   const menu = [
     {
       name: 'Feature',
-      link: '/'
+      link: '#feature'
     },
     {
       name: 'Pricing',
-      link: '/about'
+      link: '#pricing'
     },
     {
       name: 'How to use',
-      link: '/services'
+      link: '#how-to-use'
     },
     {
       name: 'Roadmap',
-      link: '/contact'
+      link: '#roadmap'
     }
   ]
 
@@ -53,8 +53,8 @@ const Header = () => {
       <Image src={logo} alt='logo' />
       <ul className='md:flex hidden items-center gap-[25px] h-full'>
         {menu.map((item, index) => (
-          <li key={index} className='flex items-center gap-[25px] h-full  text-[14px] leading-[22px] font-medium silver-text '>
-            <Link href={item.link} className='px-[10px] py-[12px]' >
+          <li key={index} className='flex items-center gap-[25px] h-full  text-[14px] leading-[22px] font-medium silver-text   '>
+            <Link href={item.link} className='px-[10px] py-[12px] hover:bg-[#ffffff20] transition-all' >
               <span>{item.name}</span>
             </Link>
             {
