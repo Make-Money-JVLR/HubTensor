@@ -66,7 +66,7 @@ const Header = () => {
         ))}
       </ul>
       {isMenuOpen && (
-        <ul className={`md:hidden flex flex-col gap-[25px] pb-[60px] px-[30px] absolute top-[74px] left-0 w-full  backdrop-blur-[40px] transition-all duration-300 ease-in-out  ${isOutOfView ? 'bg-[#000] backdrop-blur-[40px]' : 'bg-transparent'}`}>
+        <ul className={`md:hidden  border-b border-[#353539] flex slideInDown flex-col gap-[25px] z-0 pb-[60px] px-[30px] absolute top-[74px] left-0 w-full  backdrop-blur-[40px] transition-all duration-300 ease-in-out  ${isOutOfView ? 'bg-[#000] backdrop-blur-[40px]' : 'bg-transparent'}`}>
           {menu.map((item, index) => (
             <li key={index} className='flex items-center gap-[24px] text-[14px] leading-[22px] font-medium silver-text '>
               <Link href={item.link} className='px-[10px] py-[12px]' >
