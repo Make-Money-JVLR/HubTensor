@@ -153,13 +153,27 @@ body {
   } */
 
   .button-outer {
-    background-image: linear-gradient(
-      90deg,
-      #fcff74 0%,
-      #fb6064 28.75%,
-      #4dcaff 65.23%,
-      #814ffe 100%
-    );
+    background-image: linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%);
+  }
+
+  .card {
+    display: flow-root;
+    position: relative;
+    padding: 1.3rem;
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
   }
 }
 

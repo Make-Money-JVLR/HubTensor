@@ -1,12 +1,13 @@
 import Banner from "@/components/banner";
 import Collaborator from "@/components/collaborator";
+import Mission from "@/components/mission";
 import Precofig from "@/components/preconfig";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
       <Banner />
+      <Mission />
       <Collaborator />
       <Precofig />
     </main>
