@@ -18,17 +18,16 @@ function Card({
         }
       `}
     </style>
-    <div style={{
-      }} className={`card card-${footer}`}>
+    <div className={`card card-${footer}`}>
         <div className=" flex flex-col backdrop-filter-[20px] bg-[#010214] font-segoe bg-transparent" >
-          <h2 className="text-2xl font-extrabold mb-4">{title}</h2>
-          <p className="text-[var(--Subtext,_#918DA4)]">{description}</p>
-          <div className="flex flex-row-reverse">
+          <div>
             <div className="size-fit bg-black font-jetbrains p-2 rounded-lg border-[#353539] border-[1px]" style={{
               color: color,
               background: "linear-gradient(182deg, #555 -59.29%, #010214 98.41%)"
             }}>{footer}</div>
           </div>
+          <h2 className="text-2xl font-extrabold my-4">{title}</h2>
+          <p className="text-[var(--Subtext,_#918DA4)]">{description}</p>
         </div>
     </div>
     </>
