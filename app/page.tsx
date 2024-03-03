@@ -1,7 +1,8 @@
 import Banner from "@/components/banner";
 import Collaborator from "@/components/collaborator";
 import Mission from "@/components/mission";
-import Precofig from "@/components/preconfig";
+import Preconfig from "@/components/preconfig";
+import Tokenomic from "@/components/tokenomic";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <Banner />
       <Mission />
       <Collaborator />
-      <Precofig />
+      <Preconfig />
+      <Tokenomic/>
     </main>
   );
 }

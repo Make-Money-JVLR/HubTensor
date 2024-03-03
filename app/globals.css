@@ -17,6 +17,11 @@ body {
   src: url(../public/fonts/Segoe\ UI.ttf);
 }
 
+@font-face {
+  font-family: "TWKEverett";
+  src: url(../public/fonts/TWKEverett-Regular.otf);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

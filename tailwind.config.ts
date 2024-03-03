@@ -15,7 +15,8 @@ const config: Config = {
       },
       fontFamily: {
         jetbrains: ["JetBrains Mono", "monospace"],
-        segoe : ["Segoe UI", "sans-serif"],
+        segoe: ["Segoe UI", "sans-serif"],
+        twk: ["TWKEverett", "sans-serif"],
       },
     },
   },
