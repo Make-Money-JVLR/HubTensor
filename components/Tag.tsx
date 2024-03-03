@@ -14,7 +14,7 @@ function Tag({
           <path d="M4.91745 11.4202C4.53792 13.4804 2.83855 15.351 1.27446 15.351C2.37836 15.4631 4.27776 16.379 4.91745 19.1461C4.91745 17.0317 7.58309 15.735 8.9159 15.351C6.48504 15.351 5.43703 12.7305 4.91745 11.4202Z" fill="#9747FF" />
         </svg>
       )}
-      <span className="font-jetbrains text-[#BDA8F5]">{text}</span>
+      <span className="font-jetbrains text-white">{text}</span>
     </div>
   )
 }
