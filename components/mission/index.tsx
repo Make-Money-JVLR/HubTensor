@@ -1,10 +1,4 @@
 import Card from "./Card";
-import Image from "next/image";
-import logoSolana from "@/images/logoSolana.png";
-import logoPay from "@/images/logoPay.png";
-import logoLido from "@/images/logoLido.png";
-import logoLayerZero from "@/images/logoLayerZero.png";
-import logoLinea from "@/images/logoLinea.png";
 import Tag from "../content/Tag";
 
 function Mission() {
@@ -41,13 +35,6 @@ function Mission() {
       backgroundSize: "cover",
     }} className="px-12 flex justify-center">
       <div className="max-w-[1440px]">
-        <div className="pb-11 flex justify-center gap-x-14 items-center z-10">
-          <Image src={logoSolana} alt="Solana" className="w-fit"/>
-          <Image src={logoPay} alt="Pay" />
-          <Image src={logoLido} alt="Lido" />
-          <Image src={logoLayerZero} alt="Layer Zero" />
-          <Image src={logoLinea} alt="Linea" />
-        </div>
         <div className="border-y-2 border-[#353539] flex justify-between py-8">
           <div className="space-y-4">
             <Tag text={`HubTensor`} />
