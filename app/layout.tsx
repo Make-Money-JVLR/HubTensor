@@ -3,17 +3,13 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import Head from "next/head";
+
+
 
 export const metadata: Metadata = {
   title: "HubTensor",
   description: "HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains.",
-  openGraph: {
-    title: "HubTensor",
-    description: `HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains.`,
-    siteName: "These flagship offerings epitomize our commitment to excellence within the blockchain and decentralized industry.",
-    url: "https://hubtensor.cloud/",
-  },
-
 };
 
 export default function RootLayout({
@@ -23,6 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <title>HubTensor</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <body>
         <Header />
         {children}
