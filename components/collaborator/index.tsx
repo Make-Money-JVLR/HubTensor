@@ -12,7 +12,7 @@ const Collaborator = () => {
     {
       name: 'ethereum',
       image: ethereum,
-      style: 'w-[50px] h-[50px]'
+      style: 'w-[150px] h-[100px]'
     },
     {
       name: 'google',
