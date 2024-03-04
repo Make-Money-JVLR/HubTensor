@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "HubTensor",
     description: `HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains.`,
     siteName: "These flagship offerings epitomize our commitment to excellence within the blockchain and decentralized industry.",
-    // url: new URL(`${process?.env?.REACT_APP_HOST}`),
+    url: "https://hubtensor.cloud/",
   },
 
 };
