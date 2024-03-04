@@ -11,16 +11,16 @@ const Tokenomic = () => {
 
   const tokenomic = [
     {
-      number: '50+',
-      title: 'by Tax',
+      number: '5%',
+      title: 'Taxes',
     },
     {
       number: '100M',
       title: 'Max Supply',
     },
     {
-      number: '30+',
-      title: 'Max Supply',
+      number: '100% ',
+      title: 'Revenue Share',
     }
   ]
 
