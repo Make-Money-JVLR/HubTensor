@@ -9,7 +9,6 @@ function Roadmap() {
   const steps = [
     {
       name: "Phase 1",
-      date: "15 MAR 2024",
       description: [
         "Token Launch on Uniswap",
         "Release Dapp",
@@ -20,7 +19,6 @@ function Roadmap() {
     },
     {
       name: "Phase 2",
-      date: "02 JUL 2024",
       description: [
         "Security Audits for Bot and Dapps",
         "Revenue Share Program Presentation",
@@ -31,7 +29,6 @@ function Roadmap() {
     },
     {
       name: "Phase 3",
-      date: "15 OCT 2024",
       description: [
         "Extend node providers globally",
         "Optimization Techniques for GPU Programming",
@@ -42,7 +39,6 @@ function Roadmap() {
     },
     {
       name: "Phase 4",
-      date: "01 JAN 2025",
       description: [
         "Expanding machine miner builds for more use cases",
         "Enhancing the Explorer for network management",
@@ -112,11 +108,11 @@ function Roadmap() {
             </button>
           </div>
           <div className="flex flex-col self-end gap-y-8 lg:gap-y-0">
-            {steps.map(({ date, name, description }, index) => (
+            {steps.map(({ name, description }, index) => (
               <div key={index} className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-y-8 ">
                 <div className="font-jetbrains text-sm flex items-center gap-x-4">
                   <div className="relative px-4 lg:px-0">
-                    <span>{date}</span>
+                    <span>{name}</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17" fill="none" className="absolute -top-3 left-0 lg:-left-3">
                       <path d="M1 16.777V6.25285L7.45027 1.5H24.0852" stroke="#6C3BEF" strokeWidth="2" />
                     </svg>
@@ -132,10 +128,10 @@ function Roadmap() {
                   <Layout variant={
                     fadeIn('right', 'spring', 0.5, 1)
                   }>
-                    <div className="flex items-center gap-x-4">
+                    {/* <div className="flex items-center gap-x-4">
                       <Image src={Check} alt="Roadmap" className="rounded-full bg-[#9747FF] size-8 p-1" />
                       <span>{name}</span>
-                    </div>
+                    </div> */}
                     {
                       description.map((desc, index) => (
                         <div key={index} className="font-jetbrains md:w-[560px] w-[300px] text-[#918DA4]">{desc}</div>
