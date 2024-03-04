@@ -27,7 +27,7 @@ function Card({
         }}>{tag}</div>
         <div className="text-2xl font-bold">{title}</div>
       </div>
-      <a className="flex items-center justify-end md:justify-start gap-x-3" href={link}>
+      {/* <a className="flex items-center justify-end md:justify-start gap-x-3" href={link}>
         <span>Read more</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
           <g opacity="0.5">
@@ -36,7 +36,7 @@ function Card({
             <path d="M11.1147 11.1143H20.8856V20.8852" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round"/>
           </g>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 }

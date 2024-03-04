@@ -24,7 +24,7 @@ const About = () => {
               <Tag text="HubTensor" />
               <h1 className='md:text-[48px] text-[32px] md:leading-[60px] leading-[48px]  font-bold font-segoe text-[#FDFDFD]'>ABout <span className='title-text'>HubTensor</span></h1>
             </div>
-          <p className='md:text-[16px] text-[14px] md:leading-[24px] leading-[20px] font-segoe text-[#918DA4]'>HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains. These flagship offerings epitomize our commitment to excellence within the blockchain and decentralized industry.</p>
+            <p className='md:text-[16px] text-[14px] md:leading-[24px] leading-[20px] font-segoe text-[#918DA4]'>Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.</p>
           </Layout>
         </div>
       </div>
