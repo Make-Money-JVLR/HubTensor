@@ -95,14 +95,21 @@ function Roadmap() {
         </div>
         <Image src={Circles} alt="circle" className="absolute -z-10 hidden md:block" />
         <div className="flex flex-col items-center md:items-start lg:flex-row lg:justify-between px-16 py-44 lg:py-44 ">
-          <div className="pb-20 lg:pb-0 md:py-52 space-y-4 flex flex-col items-center md:items-start">
+          <div className="pb-20 lg:pb-0 md:py-48 space-y-4 flex flex-col items-center md:items-start">
             <Tag text={`HubTensor`} />
             <div style={{
               background: "var(--Gradient-Primary, linear-gradient(90deg,#C7B3F8 0%,#6C3BEF 50%,#4223A1 100%))",
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
-            }} className="md:text-5xl text-4xl font-bold">Roadmap</div>
+            }} className="md:text-5xl text-4xl font-bold pb-4">Roadmap</div>
+            <button className="bg-[#191919] hover:shadow-none transition-all duration-500 ease-in-out rounded-full py-3 px-8 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
+              <span>Access roadmap</span>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.66687 12.196L11.3335 5.5293" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M4.66687 5.5293H11.3335V12.196" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </button>
           </div>
           <div className="flex flex-col self-end gap-y-8 lg:gap-y-0">
             {steps.map(({ date, name, description }, index) => (
