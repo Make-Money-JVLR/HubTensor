@@ -10,10 +10,10 @@ import Head from "next/head";
 export const metadata: Metadata = {
   metadataBase : new URL("https://hubtensor.cloud/"),
   title: "HubTensor",
-  description: "HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains.",
+  description: "Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
   openGraph: {
     title: "HubTensor",
-    description: "HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains.",
+    description: "Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform.",
     url: new URL("https://hubtensor.cloud/"),
   },
 };
@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>HubTensor</title>
-        <meta name="description" content="HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains." />
+        <meta name="description" content="Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
         <meta property="og:image" content="./opengraph-image.jpg"></meta>
         <meta property="og:url" content="https://hubtensor.cloud/"></meta>
         <meta property="og:title" content="HubTensor"></meta>
-        <meta property="og:description" content="HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains." />
+        <meta property="og:description" content="Hubtensor offers easy access to distributed computing and secure cloud storage, abstracting complexity for all users. Harness global CPU/GPU power to run demanding workloads and store files reliably. Browse privately, become a hosting node to earn rewards, and tap the full potential of distributed systems through one intuitive platform." />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
