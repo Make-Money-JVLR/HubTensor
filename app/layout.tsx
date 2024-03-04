@@ -21,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>HubTensor</title>
+        <meta name="description" content="HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains." />
         <meta property="og:image" content="./opengraph-image.jpg"></meta>
+        <meta property="og:url" content="https://hubtensor.cloud"></meta>
         <meta property="og:title" content="HubTensor"></meta>
         <meta property="og:description" content="HubTensor stands out as an AI Infrastructure service provider, prioritizing accessibility alongside innovative features like Privacy Services and App Chains." />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
