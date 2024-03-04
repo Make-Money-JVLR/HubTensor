@@ -6,62 +6,66 @@ const Footer = () => {
 
   const links = [
     {
-      title: 'Product',
+      title: 'Web Links',
       links: [
         {
-          title: 'Overview',
+          title: 'Home',
           href: '#',
         },
         {
-          title: 'Pricing',
-          href: '#',
+          title: 'Features',
+          href: '#features',
         },
         {
-          title: 'Marketplace',
-          href: '#',
+          title: 'Roadmap',
+          href: '#roadmap',
         },
         {
-          title: 'API',
+          title: 'Docs',
           href: '#',
         },
       ]
     },
     {
-      title: 'Company',
+      title: 'Socail Links',
       links: [
         {
-          title: 'About',
+          title: 'TG Bot',
           href: '#',
         },
         {
-          title: 'Team',
+          title: 'Dapp',
           href: '#',
         },
         {
-          title: 'Blog',
+          title: 'Twitter',
           href: '#',
         },
         {
-          title: 'Careers',
+          title: 'Telegram',
           href: '#',
         },
       ]
     },
     {
-      title: 'Resources',
+      title: 'Other Links',
       links: [
         {
-          title: 'Support',
+          title: 'Etherscan',
           href: '#',
         },
         {
-          title: 'Contact',
+          title: 'Dextools',
           href: '#',
         },
         {
-          title: 'Privacy',
+          title: 'CoinmarketCap',
           href: '#',
         },
+        {
+          title: 'Coingecko',
+          href: '#',
+        }
       ]
     }
   ]
