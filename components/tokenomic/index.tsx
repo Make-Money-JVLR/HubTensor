@@ -6,6 +6,7 @@ import bgPatternLeft from '@/images/tokenPatternLeft.png'
 import bgPatternRight from '@/images/tokenPatternRight.png'
 import Layout from '@/app/template'
 import { fadeIn } from '@/lib/motion'
+import Link from 'next/link'
 
 const Tokenomic = () => {
 
@@ -75,6 +76,7 @@ const Tokenomic = () => {
               <h1 className='font-segoe md:text-[48px] text-[32px] md:leading-[44px] leading-[40px] font-bold text-center text-[#FDFDFD]'><span className='title-text'>Enabling AI</span> Infrastructure<br />
                 On Blockchain</h1>
             </div>
+            <Link href='https://t.me/hubtensorportal'>
             <button className="bg-[#191919] rounded-full hover:shadow-none transition-all duration-500 ease-in-out py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
               <span>Discover</span>
               <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,6 +84,7 @@ const Tokenomic = () => {
                 <path d="M4.66687 5.5293H11.3335V12.196" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
+            </Link>
           </div>
         </div>
       </Layout>

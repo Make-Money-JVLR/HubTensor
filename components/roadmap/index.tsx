@@ -4,6 +4,7 @@ import Circles from "@/images/circles.svg";
 import Tag from "../Tag";
 import Layout from "@/app/template";
 import { fadeIn } from "@/lib/motion";
+import Link from "next/link";
 
 function Roadmap() {
   const steps = [
@@ -99,6 +100,7 @@ function Roadmap() {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
             }} className="md:text-5xl text-4xl font-bold pb-4">Roadmap</div>
+            <Link href="http://docs.hubtensor.cloud/">
             <button className="bg-[#191919] hover:shadow-none transition-all duration-500 ease-in-out rounded-full py-3 px-8 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
               <span>Access roadmap</span>
               <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,6 +108,7 @@ function Roadmap() {
                 <path d="M4.66687 5.5293H11.3335V12.196" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </button>
+            </Link>
           </div>
           <div className="flex flex-col self-end gap-y-8 lg:gap-y-0">
             {steps.map(({ name, description }, index) => (

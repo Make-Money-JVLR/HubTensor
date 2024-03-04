@@ -32,15 +32,15 @@ const Footer = () => {
       links: [
         {
           title: 'TG Bot',
-          href: '#',
+          href: 'https://t.me/hubtensor_bot',
         },
         {
           title: 'Dapp',
-          href: '#',
+          href: 'https://dapp.hubtensor.cloud/',
         },
         {
           title: 'Twitter',
-          href: 'https://twitter.com/HubTensor',
+          href: 'https://twitter.com/hubtensor',
         },
         {
           title: 'Telegram',
@@ -53,19 +53,19 @@ const Footer = () => {
       links: [
         {
           title: 'Etherscan',
-          href: '#',
+          href: 'https://etherscan.io/',
         },
         {
           title: 'Dextools',
-          href: '#',
+          href: 'https://www.dextools.io/app/',
         },
         {
           title: 'CoinmarketCap',
-          href: '#',
+          href: 'https://coinmarketcap.com/',
         },
         {
           title: 'Coingecko',
-          href: '#',
+          href: 'https://www.coingecko.com/',
         }
       ]
     }
