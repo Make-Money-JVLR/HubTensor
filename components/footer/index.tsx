@@ -92,7 +92,7 @@ const Footer = () => {
                 ))
               }
             </div>
-            <div className='flex flex-col gap-6'>
+            {/* <div className='flex flex-col gap-6'>
               <form className='flex flex-col gap-5'>
                 <h1 className='text-[16px] leading-[22px] font-bold font-segoe text-[#FFFFFF]'>Join Our Community</h1>
                 <div className='pl-[16px] py-[4px] pr-[4px] bg-[rgba(255,255,255,0.10)] rounded-[89px] flex gap-[10px]'>
@@ -109,7 +109,8 @@ const Footer = () => {
               <div className='flex items-center gap-4'>
 
               </div>
-            </div>
+            </div> */}
+            <div></div>
           </div>
         </div>
         <div className='flex flex-col gap-[32px] w-full'>

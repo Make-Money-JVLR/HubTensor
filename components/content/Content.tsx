@@ -16,7 +16,7 @@ function Content() {
           </svg>
         </button>
         <button className="bg-transparent z-10  border-white hover:bg-[#ffffff4d] transition-all duration-500 ease-in-out border rounded-full py-3 px-12 text-white font-jetbrains ">
-          <span>Read doc</span>
+          <span>Launch Bot</span>
         </button>
       </div>
     </div>

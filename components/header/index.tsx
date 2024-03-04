@@ -8,16 +8,20 @@ const Header = () => {
 
   const menu = [
     {
+      name: 'Home',
+      link: '/'
+    },
+    {
       name: 'Feature',
       link: '#features'
     },
     {
-      name: 'Infrastructure',
-      link: '#infrastructure'
-    },
-    {
       name: 'Roadmap',
       link: '#roadmap'
+    },
+    {
+      name: 'Docs',
+      link: '#docs'
     }
   ]
 
