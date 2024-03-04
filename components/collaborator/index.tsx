@@ -12,17 +12,17 @@ const Collaborator = () => {
     {
       name: 'ethereum',
       image: ethereum,
-      style: 'w-[40px] h-[40px]'
+      style: 'w-[50px] h-[50px]'
     },
     {
       name: 'google',
       image: google,
-      style: 'w-[80px] h-[40px]'
+      style: ''
     },
     {
       name: 'nvidia',
       image: nvidia,
-      style: 'w-[80px] h-[40px]'
+      style: ''
     },
   ]
 
