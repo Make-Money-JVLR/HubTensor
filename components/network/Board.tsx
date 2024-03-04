@@ -21,12 +21,12 @@ const Board = () => {
   ]
 
   return (
-    <article 
-    style={{
+    <article
+      style={{
         background: "rgba(255, 255, 255, 0.10)",
         backdropFilter: "blur(10px)",
-    }}
-    className='font-segoe p-8 max-w-[537px] flex flex-col gap-[44px] rounded-2xl border border-[rgba(253,253,253,0.30)] 
+      }}
+      className='font-segoe p-8 max-w-[537px] flex flex-col gap-[44px] rounded-2xl border border-[rgba(253,253,253,0.30)] 
     shadow-[-7px_4px_20px_0px_rgba(0,0,0,0.20)] 
     '>
       {
@@ -50,7 +50,7 @@ const Board = () => {
 
         ))
       }
-      <button className="bg-[#191919] rounded-full md:mx-[40px] w-fit py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)] hover:shadow-none transition-all duration-500 ease-in-out">
+      <button className="bg-[#191919] rounded-full w-fit py-3 px-4 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)] hover:shadow-none transition-all duration-500 ease-in-out">
         <span>Open Dapp</span>
         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M4.66687 12.196L11.3335 5.5293" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" />
