@@ -96,7 +96,7 @@ const Header = () => {
           <path d="M4 17.27V16.27H20V17.27H4ZM4 12.5V11.5H20V12.5H4ZM4 7.72998V6.72998H20V7.72998H4Z" fill="#FDFDFD" />
         </svg>
       </button>
-      <Link href='http://dapp.hubtensor.cloud/'>
+      <Link href='http://dapp.hubtensor.cloud/' className=" md:flex hidden">
         <button className="rounded-full p-[3px] md:flex hidden" style={{
           backgroundImage: "linear-gradient(90deg, #C7B3F8 0%, #6C3BEF 28.75%, #4223A1 100%)"
         }}>
