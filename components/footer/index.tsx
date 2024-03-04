@@ -121,14 +121,14 @@ const Footer = () => {
         <div className='flex flex-col gap-[32px] w-full'>
           <div className='w-full h-[1px] bg-[#353539]'></div>
           <div className='flex md:flex-row flex-col md:items-center justify-between md:gap-0 gap-4'>
-            <span className='text-[#EFF1F4] text-[14px] leading-[18.2px] font-twk'>© 2023 - 2025 , Inc</span>
+            <span className='text-[#EFF1F4] text-[14px] leading-[18.2px] font-twk'>© 2024 - 2025 , Inc</span>
             <div className='flex items-center gap-6 text-[#EFF1F4] text-[14px] leading-[18.2px] font-twk'>
               <span>Privacy Policy</span>
               <span>Terms of Service</span>
             </div>
           </div>
           <div className='text-[#918DA4] font-mono text-[14px] leading-[24px]'>
-            Copyright © 2023. All Rights Reserved.
+            Copyright © 2024. All Rights Reserved.
           </div>
         </div>
       </div>
