@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '@/images/logo.svg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
 
@@ -39,11 +40,11 @@ const Footer = () => {
         },
         {
           title: 'Twitter',
-          href: '#',
+          href: 'https://twitter.com/HubTensor',
         },
         {
           title: 'Telegram',
-          href: '#',
+          href: 'https://t.me/hubtensorportal',
         },
       ]
     },
@@ -89,7 +90,7 @@ const Footer = () => {
                     <h4 className='text-[16px] leading-[22px] font-semibold font-segoe text-[#FFFFFF]'>{item.title}</h4>
                     {
                       item.links.map((link, index) => (
-                        <a key={index} href={link.href} className='text-[16px] leading-[22px] font-semibold font-segoe text-[#918DA4]'>{link.title}</a>
+                        <Link key={index} href={link.href} className='text-[16px] leading-[22px] font-semibold font-segoe text-[#918DA4]'>{link.title}</Link>
                       ))
                     }
                   </div>
