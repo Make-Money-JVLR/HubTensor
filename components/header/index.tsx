@@ -9,15 +9,11 @@ const Header = () => {
   const menu = [
     {
       name: 'Feature',
-      link: '#feature'
+      link: '#features'
     },
     {
-      name: 'Pricing',
-      link: '#pricing'
-    },
-    {
-      name: 'How to use',
-      link: '#how-to-use'
+      name: 'Infrastructure',
+      link: '#infrastructure'
     },
     {
       name: 'Roadmap',

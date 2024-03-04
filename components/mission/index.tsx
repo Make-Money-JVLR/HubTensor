@@ -32,7 +32,9 @@ function Mission() {
   ]
 
   return ( 
-    <div style={{
+    <div
+      id="infrastructure"
+    style={{
       backgroundImage: "url('/images/missionBackground.png')",
       backgroundSize: "cover",
     }} className="px-12 flex justify-center">
