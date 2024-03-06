@@ -53,11 +53,11 @@ const Footer = () => {
       links: [
         {
           title: 'Etherscan',
-          href: 'https://etherscan.io/',
+          href: 'https://etherscan.io/address/0x2a4701ac59E0EC6B95BECBaF88315cA9B722c2bA',
         },
         {
           title: 'Dextools',
-          href: 'https://www.dextools.io/app/',
+          href: 'https://www.dextools.io/app/en/ether/pair-explorer/0x0b0bf9e3c39702c086c4a8cc27fb87e53b6760fd?t=1709744471603',
         },
         {
           title: 'CoinmarketCap',
