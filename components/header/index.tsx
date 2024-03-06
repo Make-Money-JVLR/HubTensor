@@ -106,7 +106,7 @@ const Header = () => {
               backgroundClip: "text",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
-            }} className='font-semibold text-white '>Started Now</span>
+            }} className='font-semibold text-white '>Start Now</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
               <path d="M4.66699 11.3332L11.3337 4.6665" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M4.66699 4.6665H11.3337V11.3332" stroke="#FDFDFD" strokeLinecap="round" strokeLinejoin="round" />
