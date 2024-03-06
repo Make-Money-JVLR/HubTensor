@@ -12,7 +12,7 @@ const Header = () => {
       link: '/'
     },
     {
-      name: 'Feature',
+      name: 'Features',
       link: '#features'
     },
     {
