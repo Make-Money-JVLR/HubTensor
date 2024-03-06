@@ -100,7 +100,7 @@ function Roadmap() {
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent"
             }} className="md:text-5xl text-4xl font-bold pb-4">Roadmap</div>
-            <Link href="http://docs.hubtensor.cloud/">
+            <Link href="http://docs.hubtensor.com/">
             <button className="bg-[#191919] hover:shadow-none transition-all duration-500 ease-in-out rounded-full py-3 px-8 text-white font-jetbrains flex items-center gap-x-2 shadow-[0px_2px_4px_0px_#A158FF_inset,0px_-4px_12px_0px_rgba(190,_166,_255,_0.50)]">
               <span>Access roadmap</span>
               <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">

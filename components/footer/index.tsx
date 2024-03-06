@@ -23,7 +23,7 @@ const Footer = () => {
         },
         {
           title: 'Docs',
-          href: '#',
+          href: 'https://docs.hubtensor.com/',
         },
       ]
     },
@@ -36,7 +36,7 @@ const Footer = () => {
         },
         {
           title: 'Dapp',
-          href: 'https://dapp.hubtensor.cloud/',
+          href: 'https://dapp.hubtensor.com/',
         },
         {
           title: 'Twitter',
